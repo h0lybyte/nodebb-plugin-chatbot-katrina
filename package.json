@@ -1,0 +1,43 @@
+{
+  "name": "nodebb-plugin-chatbot-katrina",
+  "version": "0.0.1",
+  "description": "NodeBB Plugin for Katrina The Chatbot",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h0lybyte/nodebb-plugin-chatbot-katrina.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "chatbot",
+    "kbve",
+    "katrina",
+    "cleverbot",
+    "bot"
+  ],
+  "author": {
+    "name": "Pichalite and h0lybyte but mainly pichalite, I might ow him a beer.",
+    "email": "admin@kbve.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://kbve.com/"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-google": "^0.5.0"
+  },
+  "dependencies": {
+    "botkit": "^0.1.1",
+    "cleverbot-node": "^0.2.1",
+    "cli-list": "^0.1.6",
+    "math-expression-evaluator": "^1.2.8",
+    "minimist": "^1.2.0"
+  },
+  "nbbpm": {
+    "compatibility": "^0.9.0 || ^1.0.0"
+  }
+}
